@@ -1,0 +1,154 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h2, h3, h4 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+  
+  .navbar {
+    background-color: #343a40 !important;
+    padding: 15px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    font-size: 1.1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #00B8D4 !important;
+  }
+  
+  .container {
+    margin-top: 90px;
+  }
+  
+  #informacion {
+    padding-top: 60px;
+  }
+  
+  #informacion img {
+    
+    border: 4px solid #00B8D4;
+    transition: transform 0.3s ease;
+  }
+  
+  #informacion img:hover {
+    transform: scale(1.1);
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    padding-bottom: 10px;
+  }
+  
+  ul li i {
+    margin-right: 10px;
+    color: #00B8D4;
+  }
+  
+  .smooth-scroll {
+    transition: color 0.3s;
+  }
+  
+  .smooth-scroll:hover {
+    color: #00B8D4;
+  }
+  
+  #formacion, #habilidades, #proyectos, #experiencia, #contacto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  #formacion:hover, #habilidades:hover, #proyectos:hover, #experiencia:hover, #contacto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn-primary {
+    background-color: #00B8D4;
+    border-color: #00B8D4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #008C9E;
+    border-color: #008C9E;
+  }
+  
+  .text-center {
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  
+
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .icon-container i, .icon-container img {
+    margin-right: 8px;
+    font-size: 1.5rem;
+  }
+  
+  .icon-container img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .d-flex {
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+
+
+  .email-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .email-button:hover {
+    background-color: #0056b3;
+    opacity: 0.9;
+  }
+
+  .email-button i {
+    margin-right: 8px;
+  } 
